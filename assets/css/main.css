@@ -1,0 +1,62 @@
+/* HTML */
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    overflow: hidden;
+}
+
+*:focus {
+  outline: none;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    --item-text-color: white;
+    --item-padding: 1px;
+    --item-height: 15%;
+    --item-width: 15%;
+    --item-float: left;
+    --item-bg-position: center;
+    --item-bg-color: rgb(31, 30, 43);
+    --item-shadow: 11px 15px 13px 0px rgba(0,0,0,0.75);
+    --item-border-radius: 5px;
+    --item-border: rgb(0, 230, 247) solid 1px;
+    --item-margin: 1%;
+    --main-color: rgb(0, 230, 247);
+}
+
+body {
+  margin: 0;
+}
+
+.fa, .far, .fas {
+  vertical-align: middle;
+}
+.overlay {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: rbga(0,0,0,0.4);
+}
+.menu {
+  position: absolute;
+  height: auto;
+  width: auto;
+  min-width: 200px;
+  top: 400px;
+  left: 400px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  /* background: #000 url(../img/black_linen_v2.png) repeat; */
+  /* border: 6px solid transparent;
+  border-image: url(../img/border-ui.svg) 37% stretch;
+  border-image-width: 8; */
+}
+.menu .content {
+  position: relative;
+  padding: 15px;
+  z-index: 10;
+}
+
+
